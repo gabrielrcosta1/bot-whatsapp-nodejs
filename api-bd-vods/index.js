@@ -4,10 +4,10 @@ const app = express();
 const PORT = 4000;
 
 const db = mysql.createConnection({
-    host: '192.185.209.81',
-    user: 'grsoft95_vods',
-    password: '30200631@@',
-    database: 'grsoft95_vods'
+    host: '52.5.226.201',
+    user: 'sql9642115',
+    password: 'pR8QjsBqTu',
+    database: 'sql9642115'
 });
 
 db.connect((err) => {
@@ -42,6 +42,26 @@ app.get('/:apiKey/usuario/:username', (req, res) => {
                 } else {
                     res.status(404).send('Usuário não encontrado');
                 }
+            }
+        });
+    } else {
+        res.status(401).send('Acesso não autorizado');
+    }
+});
+app.post('/:apiKey/usuario/:username/pedido', (req, res) => {
+    const apiKey = req.params.apiKey;
+    const username = req.params.username;
+
+    if (apiKeys[apiKey]) {
+        const { item, quantidade } = req.body; // Assume que o corpo da requisição possui 'item' e 'quantidade'
+
+        const query = 'INSERT INTO pedidos (username, item, quantidade) VALUES (?, ?, ?)';
+        db.query(query, [username, item, quantidade], (err, results) => {
+            if (err) {
+                console.error('Erro ao criar pedido:', err);
+                res.status(500).send('Erro ao criar pedido');
+            } else {
+                res.status(201).json({ message: 'Pedido criado com sucesso' });
             }
         });
     } else {
