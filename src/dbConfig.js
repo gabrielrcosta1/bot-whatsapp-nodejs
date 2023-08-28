@@ -1,7 +1,7 @@
 const dbConfig = {
-    host: '162.212.158.182',
-    user: 'root',
-    password: '30200631Gbr.@@',
-    database: 'vods',
+    host: 'your-data',
+    user: 'your-user',
+    password: 'your-password',
+    database: 'your-database',
 };
 module.exports = dbConfig;
