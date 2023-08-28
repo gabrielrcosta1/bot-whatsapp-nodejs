@@ -1,0 +1,12 @@
+2023/08/28-08:53:22.948 618 Reusing MANIFEST C:\Users\conta\node\src\tokens\charles-bot-1\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/28-08:53:22.949 618 Recovering log #13
+2023/08/28-08:53:23.001 618 Reusing old log C:\Users\conta\node\src\tokens\charles-bot-1\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000013.log 
+2023/08/28-08:53:36.630 618 Level-0 table #18: started
+2023/08/28-08:53:36.660 618 Level-0 table #18: 1157616 bytes OK
+2023/08/28-08:53:36.662 618 Delete type=0 #13
+2023/08/28-08:53:36.894 618 Compacting 1@1 + 1@2 files
+2023/08/28-08:53:36.932 618 Generated table #19@1: 36557 keys, 1362078 bytes
+2023/08/28-08:53:36.932 618 Compacted 1@1 + 1@2 files => 1362078 bytes
+2023/08/28-08:53:36.933 618 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/28-08:53:36.933 618 Delete type=2 #15
+2023/08/28-08:53:36.933 618 Delete type=2 #18
