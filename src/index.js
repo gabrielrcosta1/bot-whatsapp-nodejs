@@ -24,7 +24,6 @@ async function start(client) {
 
     client.onMessage(async (message) => {
         let lowerCaseMessage = message.body.toLowerCase();
-        const response = commandResponses[lowerCaseMessage];
         const commandsMessage = `📌 Menu de Opções 📌
 Olá! Bem-vindo ao nosso menu de escolhas. Por favor, selecione uma das opções abaixo:
 
@@ -35,12 +34,8 @@ Olá! Bem-vindo ao nosso menu de escolhas. Por favor, selecione uma das opções
 Responda com o número da opção desejada para podermos continuar!`;
 
 
-
         if (lowerCaseMessage === '/menu') {
             client.sendText(message.from, commandsMessage)
-        }
-        else if (response) {
-            client.sendText(message.from, response);
         }
     });
 }

@@ -1,7 +1,12 @@
-2023/08/28-08:50:38.872 25a0 Creating DB C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2023/08/28-08:50:38.879 25a0 Reusing MANIFEST C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/28-08:50:38.907 2354 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/08/28-08:50:39.615 4130 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/08/28-08:51:17.137 4130 Level-0 table #5: started
-2023/08/28-08:51:17.168 4130 Level-0 table #5: 1067114 bytes OK
-2023/08/28-08:51:17.170 4130 Delete type=0 #3
+2023/08/28-15:32:08.513 7d4 Reusing MANIFEST C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/28-15:32:08.513 7d4 Recovering log #19
+2023/08/28-15:32:08.549 7d4 Reusing old log C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000019.log 
+2023/08/28-15:34:32.728 3bc8 Level-0 table #24: started
+2023/08/28-15:34:32.755 3bc8 Level-0 table #24: 1286833 bytes OK
+2023/08/28-15:34:32.757 3bc8 Delete type=0 #19
+2023/08/28-15:34:34.243 7d4 Compacting 1@1 + 1@2 files
+2023/08/28-15:34:34.296 7d4 Generated table #25@1: 50987 keys, 1575663 bytes
+2023/08/28-15:34:34.296 7d4 Compacted 1@1 + 1@2 files => 1575663 bytes
+2023/08/28-15:34:34.297 7d4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/28-15:34:34.297 7d4 Delete type=2 #21
+2023/08/28-15:34:34.297 7d4 Delete type=2 #24

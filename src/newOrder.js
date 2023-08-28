@@ -2,7 +2,6 @@ const axios = require('axios');
 const venom = require('venom-bot');
 const mysql = require('mysql2/promise');
 const dbConfig = require('./dbConfig.js');
-const commandResponses = require('./menu.js');
 const { STAGES, STAGESFROMMANUTENCION } = require('./stages.js');
 const { boturl, vodSystem, dataFormatada } = require('./dataBaseVariables.js');
 
@@ -24,8 +23,6 @@ async function start(client) {
 
     client.onMessage(async (message) => {
         let lowerCaseMessage = message.body.toLowerCase();
-        const response = commandResponses[lowerCaseMessage];
-
 
         let username = '';
         let systemType = '';
@@ -33,7 +30,7 @@ async function start(client) {
         let mediaType = '';
 
         if (lowerCaseMessage === '1') {
-            client.sendText(message.from, 'Digite seu *usuário*:');
+            client.sendText(message.from, 'Digite seu *usuário de revenda* para continuar-mos com novo pedido:');
             userState[message.from] = STAGES.AWAITING_USER;
         } else if (userState[message.from] === 'awaiting-user') {
             userState[message.from] = null;
@@ -81,13 +78,13 @@ Qual tipo de sistema? (IPTV ou P2P)`;
                     [boturl, username, dataFormatada, mediaType, orderName, systemType, vodSystem, description]
                 );
                 client.sendText(message.from, 'Pedido salvo com sucesso!');
+                userState[message.from] = null;
             } catch (error) {
                 console.error('Error saving data to database:', error);
                 client.sendText(message.from, 'Erro ao salvar pedido no banco de dados.');
+                userState[message.from] = null;
             }
-            userState[message.from] = null;
-        } else if (response) {
-            client.sendText(message.from, response);
+
         }
     });
 }

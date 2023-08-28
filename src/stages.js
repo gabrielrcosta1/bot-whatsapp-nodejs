@@ -15,7 +15,11 @@ const STAGESFROMMANUTENCION = {
     AWAITING_MEDIA_TYPE: 'awaiting-media-type-manutencion',
     AWAITING_DESCRIPTION: 'awaiting-description-manutencion',
 };
+const STAGESFROMVERIFY = {
+    AWAITING_USER: 'awaiting-user-verify',
+    AWAITING_USERNAME: 'awaiting-username-verify',
+}
 
 
 
-module.exports = { STAGES, STAGESFROMMANUTENCION };
+module.exports = { STAGES, STAGESFROMMANUTENCION, STAGESFROMVERIFY };

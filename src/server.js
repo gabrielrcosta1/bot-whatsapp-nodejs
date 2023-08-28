@@ -18,3 +18,5 @@ function startApi(apiPath) {
 // Executa as APIs
 startApi('index.js');
 startApi('newManutencion.js');
+startApi('newOrder.js');
+startApi('orderVerify.js');

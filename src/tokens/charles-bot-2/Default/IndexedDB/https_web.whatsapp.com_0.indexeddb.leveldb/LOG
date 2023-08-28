@@ -1,12 +1,12 @@
-2023/08/28-08:55:47.892 486c Reusing MANIFEST C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/28-08:55:47.892 486c Recovering log #4
-2023/08/28-08:55:47.951 486c Reusing old log C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000004.log 
-2023/08/28-08:56:06.156 439c Level-0 table #8: started
-2023/08/28-08:56:06.183 439c Level-0 table #8: 1050279 bytes OK
-2023/08/28-08:56:06.186 439c Delete type=0 #4
-2023/08/28-08:56:07.116 4b4c Compacting 1@1 + 1@2 files
-2023/08/28-08:56:07.150 4b4c Generated table #9@1: 25019 keys, 935483 bytes
-2023/08/28-08:56:07.150 4b4c Compacted 1@1 + 1@2 files => 935483 bytes
-2023/08/28-08:56:07.152 4b4c compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/08/28-08:56:07.153 4b4c Delete type=2 #5
-2023/08/28-08:56:07.153 4b4c Delete type=2 #8
+2023/08/28-15:38:40.619 37c0 Reusing MANIFEST C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/28-15:38:40.619 37c0 Recovering log #23
+2023/08/28-15:38:40.634 37c0 Reusing old log C:\Users\conta\node\src\tokens\charles-bot-2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000023.log 
+2023/08/28-17:16:22.864 37c0 Level-0 table #28: started
+2023/08/28-17:16:22.895 37c0 Level-0 table #28: 1331144 bytes OK
+2023/08/28-17:16:22.896 37c0 Delete type=0 #23
+2023/08/28-17:16:23.428 37c0 Compacting 1@1 + 1@2 files
+2023/08/28-17:16:23.474 37c0 Generated table #29@1: 56395 keys, 1761704 bytes
+2023/08/28-17:16:23.474 37c0 Compacted 1@1 + 1@2 files => 1761704 bytes
+2023/08/28-17:16:23.475 37c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/08/28-17:16:23.475 37c0 Delete type=2 #25
+2023/08/28-17:16:23.475 37c0 Delete type=2 #28
